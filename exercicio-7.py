@@ -6,4 +6,4 @@ for i in numeros:
     soma = soma + numeros[i-1]
     resultado = resultado * numeros[i-1] 
 print (soma)
-print (resultado)
+print ("Resultado da multiplicação",resultado)
