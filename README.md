@@ -1,1 +1,0 @@
-# lista-de-repeti-o
