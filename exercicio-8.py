@@ -1,13 +1,13 @@
 idades = []
-tempVar = []
+altura = []
 resultado = ""
 for i in range(0,5):
     print("Insira a idade:")
-    tempVar = input()
+    altura = input()
     print("Insira a altura:")
-    tempVar = [tempVar, input()]
-    idades.append(tempVar)
-    tempVar = []
+    altura = [altura, input()]
+    idades.append(altura)
+    altura = []
 contador = len(idades)
 for i in range(0,contador):
     resultado = f"{resultado} {idades[contador-1]}"
